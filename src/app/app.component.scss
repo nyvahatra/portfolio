@@ -45,7 +45,7 @@
 
 #section1 #info-perso #bouton-cv:hover{
     background-color: white;
-    color:#32a2a8;
+    color:rgb(68, 75, 84);
 }
 
 #coordonne a {
@@ -58,4 +58,10 @@
     to {
         background-position: 1600px 130%, 3150px 130%, 5300px 130%;
     }
+}
+
+#section2{
+    width:100%;
+    height:40vh;
+    background-color: white;
 }
