@@ -1,0 +1,61 @@
+#section1{
+    width:100%;
+    height:90ch;
+    background-color:rgba(0, 0, 0, 0.275);
+    color:white; 
+
+    background-image: 
+    url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='50'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='-5.4795%25' y2='100%25'%3e%3cstop stop-color='%23ffffff' stop-opacity='.25' offset='0%25'/%3e%3cstop stop-color='%23ffffff' offset='100%25'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath fill='url(%23a)' fill-rule='evenodd' d='M.005 25C311 25 409.898-.125 811 0c400 0 500 25 789 25v17H0s.005-12 .005-17z'/%3e%3c/svg%3e"),
+    url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='50'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='-5.4795%25' y2='100%25'%3e%3cstop stop-color='%23ffffff' stop-opacity='.25' offset='0%25'/%3e%3cstop stop-color='%23ffffff' offset='100%25'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath fill='url(%23a)' fill-rule='evenodd' d='M.005 25C311 25 409.898-.125 811 0c400 0 500 25 789 25v17H0s.005-12 .005-17z'/%3e%3c/svg%3e"),
+    url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='50'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='-5.4795%25' y2='100%25'%3e%3cstop stop-color='%23ffffff' stop-opacity='.25' offset='0%25'/%3e%3cstop stop-color='%23ffffff' offset='100%25'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath fill='url(%23a)' fill-rule='evenodd' d='M.005 25C311 25 409.898-.125 811 0c400 0 500 25 789 25v17H0s.005-12 .005-17z'/%3e%3c/svg%3e");
+    background-repeat: repeat-x;
+    background-size: 1600px 50%;
+    background-position: 0 130%, -50px 130%, 500px 130%;
+    
+    animation: 20s waves linear infinite forwards;
+}
+
+#section1 #image-back{
+    width: 100%;
+    height:90ch;
+    position:absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, #32a2a8, #7ce5eb);
+    z-index:-1;
+}
+
+#section1 #bar-nav{
+    width: 100%;
+    height: 70px;
+}
+
+#section1 #info-perso{
+    width:66%;
+    height: 300px;
+}
+
+#section1 #info-perso #bouton-cv{
+    background:none;
+    border: solid 1px white;
+    border-radius: 5px;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+#section1 #info-perso #bouton-cv:hover{
+    background-color: white;
+    color:#32a2a8;
+}
+
+#coordonne a {
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+@keyframes waves {
+    to {
+        background-position: 1600px 130%, 3150px 130%, 5300px 130%;
+    }
+}
